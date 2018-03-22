@@ -1,0 +1,16 @@
+"Import GraphQL tag": {
+	"prefix": "igql",
+	"body": [
+		"import gql from 'graphql-tag';"
+	],
+	"description": "Import GraphQL tag",
+},
+"Export GraphQL tag": {
+	"prefix": "egql",
+	"body": [
+		"export default gql`",
+		"$1",
+		"`;"
+	],
+	"description": "Exports GraphQL tag"
+}

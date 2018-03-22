@@ -1,0 +1,28 @@
+#GIT ALIAS
+alias g='git '
+alias gg='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit -m '
+alias gd='git diff '
+alias gch='git checkout '
+alias gp='git push '
+alias gs='git status'
+alias glp='git pull --rebase'
+
+#PHP
+alias art='php artisan'
+
+#utils
+alias chrome_nocors='open -n -a Google\ Chrome --args --disable-web-security --user-data-dir=$HOME/dev/chrome_nocors'
+
+#alias chrome_nocors='open -a Google\ Chrome --args --disable-web-security --user-data-dir=~/Library/Application Support/Google/Chrome'
+
+#aliases
+alias pg-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+
+#folders
+alias delta='cd /Users/subalee/Projects/delta'
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
