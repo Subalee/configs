@@ -29,3 +29,30 @@
     ],
     "editor.matchBrackets": false
 }
+
+//2019
+
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.tabSize": 2,
+  "editor.accessibilitySupport": "off",
+  "editor.autoIndent": false,
+  "prettier.singleQuote": true,
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "breadcrumbs.enabled": true,
+  "search.exclude": {
+    "**/node_modules/style-loader": true
+  },
+  "editor.fontSize": 16,
+  "files.associations": {
+    ".blade.php": "html",
+    ".tpl": "html"
+  },
+  "blade.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.tabWidth": 4,
+  "prettier.printWidth": 120,
+  "eslint.autoFixOnSave": true
+}
